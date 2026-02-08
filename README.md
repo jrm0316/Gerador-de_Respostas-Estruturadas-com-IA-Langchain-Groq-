@@ -45,7 +45,7 @@ Diferencial:
 Como executar o projeto
   1.) Clone o repositório:
 
-      git clone https://github.com/seu-usuario/Gerador-de-respostas-estruturadas-com-IA-Langchain-Groq-
+      git clone https://github.com/seu-usuario/Gerador-de-respostas-estruturadas-com-IA-Langchain-Groq
 
   2.) Instale as dependências:
 
