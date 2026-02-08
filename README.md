@@ -1,4 +1,4 @@
-# Gerador-de_Respostas-Estruturadas-com-IA-Langchain-Groq-
+# Gerador-de-respostas-estruturadas-com-IA-Langchain-Groq
 
 Propósito do projeto
 - Este projeto demonstra como utilizar Inteligência Artificial de forma controlada e previsível, forçando o modelo de linguagem a responder exclusivamente em formato JSON, simulando o comportamento de uma API inteligente.
@@ -45,24 +45,24 @@ Diferencial:
 Como executar o projeto
   1.) Clone o repositório:
 
-  git clone https://github.com/seu-usuario/gerador-json-langchain
+      git clone https://github.com/seu-usuario/gerador-json-langchain
 
   2.) Instale as dependências:
 
-  pip install langchain langchain-groq python-dotenv
+      pip install langchain langchain-groq python-dotenv
 
   3.) Configure o arquivo .env:
 
-  GROQ_API_KEY=sua_chave_aqui
+      GROQ_API_KEY=sua_chave_aqui
 
   4.) Execute o script:
-  python gerador_json_ia.py
+      python gerador_json_ia.py
 
 
 Alterando o tema analisad
 O tema é alterado diretamente na chamada da chain:
 
-  prompt_final = prompt.format(tema="Python")
+    prompt_final = prompt.format(tema="Python")
 
 Basta trocar o valor para qualquer outro assunto, e a IA manterá o mesmo formato JSON, independentemente do conteúdo.
 
