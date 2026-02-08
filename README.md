@@ -62,7 +62,7 @@ Como executar o projeto
 Alterando o tema analisad
 O tema é alterado diretamente na chamada da chain:
 
-    prompt_final = prompt.format(tema="Python")
+      prompt_final = prompt.format(tema="Python")
 
 Basta trocar o valor para qualquer outro assunto, e a IA manterá o mesmo formato JSON, independentemente do conteúdo.
 
